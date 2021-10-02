@@ -26,34 +26,34 @@ git clone https://github.com/GorsheninNikolay/REST-API-YaMDb
 ```
 cd REST-API-YaMDb
 ```
-6. Создание виртуальной среды:
+5. Создание виртуальной среды:
 ```
 python -m venv venv 
 ```
-5. Активация виртуальной среды:
+6. Активация виртуальной среды:
 ```
 source venv/Scripts/activate
 ```
-6. Установить зависимости из файла requirements.txt:
+7. Установить зависимости из файла requirements.txt:
 ```
 python -m pip install --upgrade pip
 ```
 ```
 pip install -r requirements.txt
 ```
-7. Перейти в каталог:
+8. Перейти в каталог:
 ```
 cd api_yamdb
 ```
-8. Создать миграции:
+9. Создать миграции:
 ```
 python manage.py makemigrations
 ```
-9. Миграции:
+10. Миграции:
 ```
 python manage.py migrate
 ```
-10. Запуск проекта:
+11. Запуск проекта:
 ```
 python manage.py runserver
 ```
